@@ -20,5 +20,9 @@ fun main(args: Array<String>) {
         println(it.length)
     }
 
+    string?.apply {
+        println(string.toUpperCase())
+    }
+
 
 }
